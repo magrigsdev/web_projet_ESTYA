@@ -151,7 +151,7 @@ input{
         top:0;
         left:0;
         z-index: var(--z-fixed);
-        background-color: var(--first-color);
+        background-color: transparent;
     }
 
 /*============================ NAV ========================*/
@@ -218,3 +218,42 @@ input{
     }
 
 /*============================ SHOW MENU ========================*/
+
+
+/*============================ HOME ========================*/
+.home__img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 83%;
+}
+
+.home__container{
+    position:relative;
+    height: calc(100vh - var(--header-height));
+    align-content: center;
+    row-gap: 3rem;
+}
+
+.home__data-subtitle,
+.home__data-title,
+.home__social-link,
+.home__info{
+    color:var(--white-color) ;
+}
+
+.home__data-subtitle{
+    display: block;
+    font-weight: var(--font-semi-bold);
+    display: flex;
+    padding: 1.5rem 1rem;
+    align-items: center;
+    column-gap: 5rem;
+    position: absolute;
+    right:0;
+    bottom: 1rem;
+    width: 228px;
+}
