@@ -171,6 +171,7 @@ input{
     .nav__logo{
         font-size: var(--h2-font-size);
         font-weight: var(--font-semi-bold);
+        padding-left: 5.5rem;
     }
     .nav__toggle{
         font-size: 1.2rem;
@@ -223,7 +224,7 @@ input{
         }
 
                   /* BEHAVE */
-                   .active-link {
+        .active-link {
               position: relative;
               color: var(--title-color);
         
@@ -275,7 +276,7 @@ input{
     height: calc(100vh -var(--header-height));
     align-content: center;
     row-gap: 3rem;
-    /* padding-left: 5.5rem; */
+    padding-left: 5.5rem;
     
 }
 
@@ -298,15 +299,7 @@ input{
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-2-5);
 }
-.home__social{
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.5rem;
-}
-.home__social-link {
-    font-size: 1.2rem;
-    width: max-content;
-}
+
 .home__info{
     background-color: var(--first-color);
     display: flex;
