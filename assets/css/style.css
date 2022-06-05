@@ -178,7 +178,34 @@ input{
         position: relative;
     }
 
-/* mobile device response */
+                .nav__list {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 2.5rem;
+                }
+        
+                .nav__link {
+                    color: var(--text-color-light);
+                    font-weight: var(--font-semi-bold);
+                    text-transform: uppercase;
+                }
+        
+                /* .nav__link:hover{
+                color:var(--text-color);
+            } */
+        
+                .nav__close {
+                    position: absolute;
+                    top: .75rem;
+                    right: 1rem;
+                    cursor: pointer;
+                    color: var(--title-color);
+                }
+        
+                .show-menu {
+                    right: 0;
+                }
+/*============================ MOBILE DEVICE RESPONSIVE ========================*/
     @media  screen and (max-width:767px) {
     .nav__menu{
         position: fixed;
@@ -216,55 +243,7 @@ input{
 
 /* fin mobile */
 
-    .nav__list{
-        display: flex;
-        flex-direction: column;
-        row-gap:2.5rem;
-    }
-    .nav__link{
-        color:var(--text-color-light);
-        font-weight: var(--font-semi-bold);
-        text-transform: uppercase;
-    } 
 
-     /* .nav__link:hover{
-        color:var(--text-color);
-    } */
-
-
-  /* BEHAVE */
-  /* .active-link {
-      position: relative;
-      color: var(--title-color);
-
-  }
-
-  .active-link::before {
-      content: '';
-      position: absolute;
-      background-color: var(--title-color);
-      height: 2px;
-      bottom: -.75rem;
-      left: 0;
-      background-color: var(--first-color);
-      color: var(--first-color);
-
-      width: 4rem;
-  } */
-
-
-
-    .nav__close{
-        position: absolute;
-        top: .75rem;
-        right: 1rem;
-        cursor:pointer;
-        color: var(--title-color);
-    } 
-
-    .show-menu{
-        right: 0;
-    }
 
 /*============================ SHOW MENU ========================*/
 
