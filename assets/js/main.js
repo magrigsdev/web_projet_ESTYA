@@ -30,3 +30,6 @@ function linkAction() {
 }
 //chaque click
 navlink.forEach((items) => items.addEventListener("click", linkAction));
+
+/*============================ THEME CHANGE DARK AND LIGHT ========================*/
+
