@@ -257,3 +257,15 @@ input{
     bottom: 1rem;
     width: 228px;
 }
+
+
+/*============================ BUTTON DARK / NIGHT ========================*/
+.nav__dark{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+
+    position: absolute;
+    left: 3rem;
+    bottom:4rem;
+}
